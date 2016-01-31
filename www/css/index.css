@@ -7,23 +7,30 @@ h3.mc-text-danger  {
     color:red;
 }
 
-html, body{
-    height: 100%;
-    width:100%;
+html, body {
+	height: 95%;
+}
+
+#login-container {
+	height: 100%;
+   position: relative;
+}
+
+#login-elements {
+	margin:0;
+	position: absolute;
+	top: 55%;
+	transform: translate(0, -50%);
 }
 
 #logo-div {
-	height: 45%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #login-div {
-	height:50%;
+	margin-top: 60px;
 }
-
-#logo-image {
-	vertical-align: middle;
-}
-
 
 /* Change border radius of icon buttons */
 .ui-btn-icon-notext.ui-corner-all {
